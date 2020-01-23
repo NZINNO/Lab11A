@@ -1,11 +1,7 @@
 // Lab11avst.java
 // The "Sieve of Eratosthenes" Program
 // This is the student, starting version of the Lab11a assignment.
-
-
 import java.util.Scanner;
-
-
 public class Lab11avst
 {
 	public static void main(String[] args)
@@ -22,17 +18,19 @@ public class Lab11avst
 	public static void computePrimes(boolean primes[])
 	{
 		System.out.println("\nCOMPUTING PRIME NUMBERS");
-
+			for(int x = 2; x > primes.length; x++){
+				for(int y = (x+1); y < primes.length; y++)
+				
+		}
 	}
 
 	public static void displayPrimes(boolean primes[])
 	{
 		System.out.println("\n\nPRIMES BETWEEN 1 AND "+ primes.length);
 		System.out.println();
+		for(int x=2; x<primes.length; x++){
 
+		}
 	}
 
 }
-
-
-
